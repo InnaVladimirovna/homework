@@ -1,0 +1,84 @@
+@font-face{
+    font-family: TitilliumWeb-Regular;
+    src: url(../fonts/TitilliumWeb-Regular.ttf);
+    font-family: TitilliumWeb-Bold;
+    src: url(../fonts/TitilliumWeb-Bold.ttf);
+    font-family: TitilliumWeb-SemiBold;
+    src: url(../fonts/TitilliumWeb-SemiBold.ttf);
+}
+
+body{
+    background: #864f9c;
+    width: 1435px;
+    height: 400px;
+}
+img{
+    margin: 57px 211px;
+}
+.headerNav{
+    list-style: none;
+    font-family: TitilliumWeb-Regular;
+    font-size: 16px;
+    
+}
+.headerMenu{
+    width: 69px;
+    float: left;
+    padding: 10px;
+}
+.headerA{
+    color: white;
+    display: list-item;
+    margin: -135px 829px;
+}
+.headerA:hover{
+    background: #633a79;
+    width: 60px;
+    padding: 1px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+h1{
+    font-family: TitilliumWeb-Bold;
+    font-size: 42px;
+    text-align: center;
+    color: white;
+    margin: 88px 267px;
+}
+.sub{
+    color: white;
+    background: #eb7d4b;
+    font-family: TitilliumWeb-SemiBold;
+    width: 222px;
+    padding: 15px 20px;
+    margin: -31px 572px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px #000000
+}
+.foot{
+    background: #344b8e;
+    width: 1440px;
+    height: 100px;
+    margin: 303px -15px;
+}
+.footNav{
+    list-style: none;
+    font-family: TitilliumWeb-SemiBold;
+    display: list-item;
+}
+
+.menufoot{
+    color:  white;
+    float: left;
+    padding: 10px;
+    margin: 28px 56px;
+}
+.menufoot:hover{
+    color: #30bae7;
+}
+
+
